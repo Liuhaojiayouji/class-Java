@@ -1,4 +1,4 @@
-package _20201125.课堂._1;
+package _20201125.课堂;
 
 public class Demo01 {
     public static void main(String[] args) {
