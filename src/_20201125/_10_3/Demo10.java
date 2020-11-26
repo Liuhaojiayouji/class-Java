@@ -10,13 +10,14 @@ public class Demo10 {
         DateFormat dateFormat = DateFormat.getDateInstance();
         DateFormat fullFormat = DateFormat.getDateInstance(DateFormat.FULL);
         DateFormat longFormat = DateFormat.getDateInstance(DateFormat.LONG);
-        DateFormat mediumFormat = DateFormat.getDateTimeInstance(DateFormat.MEDIUM,DateFormat.MEDIUM);
-        DateFormat shortFormat = DateFormat.getDateTimeInstance(DateFormat.SHORT,DateFormat.SHORT);
+        DateFormat mediumFormat = DateFormat.getDateTimeInstance(DateFormat.MEDIUM, DateFormat.MEDIUM);
+        DateFormat shortFormat = DateFormat.getDateTimeInstance(DateFormat.SHORT, DateFormat.SHORT);
         System.out.println(dateFormat.format(date));
         System.out.println(fullFormat.format(date));
         System.out.println(longFormat.format(date));
+        System.out.println(shortFormat.format(date));
         System.out.println(mediumFormat.format(date));
-        String str="2017年10月3日";
+        String str = "2017年10月3日";
         Date data1 = longFormat.parse(str);
         System.out.println(data1);
     }
